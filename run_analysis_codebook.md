@@ -6,8 +6,8 @@ Codebook for:
 Program for Cleaned and Transformed Data Set Ready for Analysis
 of the Mean of all Mean and Std Dev Calculations in the *Human Activity Recognition Using Smartphones Dataset*  
 Version 1.0  
-Program author: Tom Trahan
-(see below for ORIGINAL README FROM THE STUDY AUTHORS)  
+Program author: Tom Trahan  
+(see below for ORIGINAL CODEBOOK FROM THE STUDY AUTHORS)  
 
 ----------
 
@@ -102,7 +102,7 @@ avg_fBodyBodyGyroJerkMag-mean()
 avg_fBodyBodyGyroJerkMag-std()
 
 
-Original Codebook from Study Authors
+Original Codebook from Study Authors ('features_info.txt')  
 =================
 Feature Selection 
 =================
