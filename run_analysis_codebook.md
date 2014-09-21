@@ -32,7 +32,7 @@ activity
    * STANDING    
 
 
-This dataset contains 66 calculated measures.  Each contains the average of the MEAN and STD DEV calculations for all measurements reported by the source authors for each Subject/Activity combination.  
+This dataset contains 66 calculated measures.  These contain the average of the MEAN and STD DEV calculations for all measurements reported by the source authors for each Subject/Activity combination.  
 
 avg_tBodyAcc-mean()-X  
 avg_tBodyAcc-mean()-Y  
