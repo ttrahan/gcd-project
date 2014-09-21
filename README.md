@@ -25,10 +25,10 @@ The data required for this analysis is provided in seven files in the original s
 The following steps were performed to prepare the data set:
 
 1.  Download source data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
-2.  Merge the training and test subject data sets and the related dimensional data 
-    Read 'features.txt' into table and add column names  
-- Read 'activity_labels.txt' into table, add column names, and set key fields  
-- Read measurement data for training and test subjects (X data) into table from 'train/X_train.txt' and 'test/X_test.txt'  
+2.  Merge the training and test subject data sets and the related dimensional data  
+    * Read 'features.txt' into table and add column names  
+    * Read 'activity_labels.txt' into table, add column names, and set key fields  
+   * Read measurement data for training and test subjects (X data) into table from 'train/X_train.txt' and 'test/X_test.txt'  
 - Read subject data for training and test subjects from 'train/subject_train.txt' and 'test/subject_test.txt', add column names, and bind to X data  
 - Add column to each X dataset to identify training vs. test subjects  
 - Read activity data from 'train/y_train.txt' and 'test/y_test.txt' for each X dataset, add column names, bind to X data, and re-order columns to place dimensions in first column positions  
