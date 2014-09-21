@@ -10,7 +10,7 @@ Program author: Tom Trahan
 
 The provided cleaned and transformed data set prepares the data gathered by the Human Activity Recognition Using Smartphones research study for ease of analysis and calculates the mean of all mean and std deviation calculations provided in the original dataset, by subject and activity.
 
-##The data required for this analysis is provided in seven files in the original study data:
+####The data required for this analysis is provided in seven files in the original study data:
 
    * 'features.txt'  
    * 'activity_labels.txt'  
@@ -20,9 +20,9 @@ The provided cleaned and transformed data set prepares the data gathered by the 
    * 'test/y_test.txt'  
    * 'train/subject_train.txt'  
    * 'test/subject_test.txt'   
-(Descriptions for each data set appear in the original codebook from the study authors below)
+(Descriptions for each data set appear in the original README below)
 
-##The following steps were performed to prepare the data set:
+####The following steps were performed to prepare the data set:
 
 1.  Download source data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 2.  Merge the training and test subject data sets and the related dimensional data  
@@ -42,7 +42,7 @@ Executing the program will perform steps 2-6 above and write the resulting datas
 
 
 
-ORIGINAL README FROM THE STUDY AUTHORS
+ORIGINAL README FROM SOURCE STUDY
 ==================================================================
 ###Human Activity Recognition Using Smartphones Dataset
 ###Version 1.0
@@ -51,7 +51,7 @@ ORIGINAL README FROM THE STUDY AUTHORS
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
 Smartlab - Non Linear Complex Systems Laboratory  
 DITEN - Università degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
+Via Opera Pia 11A, I-16145, Genoa, Italy.  
 activityrecognition@smartlab.ws  
 www.smartlab.ws
 
