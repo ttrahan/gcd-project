@@ -3,8 +3,8 @@ Getting and Cleaning Data - Course Project
 Program for Cleaned and Transformed Data Set Ready for Analysis
 of the Mean of all Mean and Std Dev Calculations in the *Human Activity Recognition Using Smartphones Dataset*  
 Version 1.0  
-(see below for ORIGINAL README FROM THE STUDY AUTHORS)  
 Program author: Tom Trahan
+(see below for ORIGINAL README FROM THE STUDY AUTHORS)  
 
 ----------
 

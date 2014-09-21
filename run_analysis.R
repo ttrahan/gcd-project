@@ -165,4 +165,5 @@ for(i in 3:ncol(avgalldata)) {setnames(avgalldata,i,paste("avg",
                                 names(avgalldata[,i,with=FALSE]),sep="_"))}
 ## save tidy data set to file
 write.table(avgalldata, file="avgalldata_tidy.txt", row.name=FALSE)
+write.table(names(avgalldata),file="avgalldata_variables.txt", row.name=FALSE)
 
