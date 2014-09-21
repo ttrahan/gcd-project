@@ -41,18 +41,18 @@ The provided cleaned and transformed data set prepares the data gathered by the 
 Executing the program will perform steps 2-6 above and write the resulting dataset to your working directory.  Prior to executing the program (run_analysis.R), extract all source files (step 1) into your working directory and edit rows 59 and 61 in the program with your desired working directory location.
 
 
+
 ORIGINAL README FROM THE STUDY AUTHORS
+==================================================================
+###Human Activity Recognition Using Smartphones Dataset
+###Version 1.0
 
 ==================================================================
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
-
-==================================================================
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
+Smartlab - Non Linear Complex Systems Laboratory  
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
+activityrecognition@smartlab.ws  
 www.smartlab.ws
 
 ==================================================================
