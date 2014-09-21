@@ -58,7 +58,7 @@ library(gsubfn)
 # set location for downloaded data where source files were extracted
 wd <- c("C:/Users/tomtra/SkyDrive/Coursera/Data Science Specialization/Getting and Cleaning Data/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
 if(getwd() != wd) {
-        setwd(".//Getting and Cleaning Data//getdata_projectfiles_UCI HAR Dataset//UCI HAR Dataset")        
+        setwd("C://Users//tomtra//SkyDrive//Coursera//Data Science Specialization//Getting and Cleaning Data//getdata_projectfiles_UCI HAR Dataset//UCI HAR Dataset")        
 }
 rm(wd)
 
