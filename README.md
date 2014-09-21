@@ -10,7 +10,7 @@ Program author: Tom Trahan
 
 The provided cleaned and transformed data set prepares the data gathered by the Human Activity Recognition Using Smartphones research study for ease of analysis and calculates the mean of all mean and std deviation calculations provided in the original dataset, by subject and activity.
 
-The data required for this analysis is provided in seven files in the original study data:
+##The data required for this analysis is provided in seven files in the original study data:
 
    * 'features.txt'  
    * 'activity_labels.txt'  
@@ -22,17 +22,17 @@ The data required for this analysis is provided in seven files in the original s
    * 'test/subject_test.txt'   
 (Descriptions for each data set appear in the original codebook from the study authors below)
 
-The following steps were performed to prepare the data set:
+##The following steps were performed to prepare the data set:
 
 1.  Download source data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 2.  Merge the training and test subject data sets and the related dimensional data  
-    * Read 'features.txt' into table and add column names  
-    * Read 'activity_labels.txt' into table, add column names, and set key fields  
+   * Read 'features.txt' into table and add column names  
+   * Read 'activity_labels.txt' into table, add column names, and set key fields  
    * Read measurement data for training and test subjects (X data) into table from 'train/X_train.txt' and 'test/X_test.txt'  
-- Read subject data for training and test subjects from 'train/subject_train.txt' and 'test/subject_test.txt', add column names, and bind to X data  
-- Add column to each X dataset to identify training vs. test subjects  
-- Read activity data from 'train/y_train.txt' and 'test/y_test.txt' for each X dataset, add column names, bind to X data, and re-order columns to place dimensions in first column positions  
-- Merge X datasets into single, consolidated dataset  
+   * Read subject data for training and test subjects from 'train/subject_train.txt' and 'test/subject_test.txt', add column names, and bind to X data  
+   * Add column to each X dataset to identify training vs. test subjects  
+   * Read activity data from 'train/y_train.txt' and 'test/y_test.txt' for each X dataset, add column names, bind to X data, and re-order columns to place dimensions in first column positions  
+   * Merge X datasets into single, consolidated dataset  
 3.  Limit scope of consolidated dataset to only the mean and standard deviation calculations and set key fields
 4.  Add descriptive activity names to the consolidated dataset taken from 'activity_labels.txt'
 5.  Name calculation columns in the consolidated dataset taken from 'features.txt'
@@ -42,9 +42,11 @@ Executing the program will perform steps 2-6 above and write the resulting datas
 
 
 ORIGINAL README FROM THE STUDY AUTHORS
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
+
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
@@ -52,6 +54,7 @@ DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
+
 ==================================================================
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
